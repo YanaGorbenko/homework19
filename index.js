@@ -12,7 +12,7 @@
  */
 function greet(msg, name) {
   // Конкатенація (додавання) рядків
-  return msg + ', ' + name;
+  return `${msg}, ${name}`;
 }
 
 console.log('=== Тестування функції greet ===');
